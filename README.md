@@ -14,3 +14,12 @@ Pour ajouter un script externe à la page html il suffis de le faire dans le **h
 ```
 <script src="chemin/du/fichier.js"><script>
 ```
+
+## Faire une fonction :
+Strcuture d'une fonction en javascript :
+
+```
+function addNumbers(a, b) {
+  return a + b;
+}
+```
