@@ -229,5 +229,60 @@ do {
 ```
 
 
+## Les Math en javascript :
+Il existes plusieurs moyen de faire des calculs mathématiques en javascript :
+
+```
+let pi = Math.PI; //Retourne 3.141592653589793
+```
+
+```
+Math.round(4.4); //Retourne 4, mais 4.5 donnerai 5.
+```
+
+```
+Math.pow(2,8); //Retourne 256 qui correspond à 2 puissance 8.
+```
+
+```
+Math.sqrt(49); //Retourne 7 qui est la racine carré.
+```
+
+```
+Math.abs(-3.14); //Retourne 3.14 qui est l'absolu positif.
+```
+
+```
+Math.ceil(3.14); //Retourne 4 qui est l'arrondi supérieur.
+```
+
+```
+Math.floor(3.99); //Retourne 3 qui est l'arrondi inférieur.
+```
+
+```
+Math.min(0, 3, -2, 2); //Retourne -2 qui est le plus petit des nombres.
+```
+
+```
+Math.max(0, 3, -2, 2); //Retourne 3 qui est le plus grand des nombres.
+```
+
+```
+Math.random(); //Retourne un nombre aléatoire entre 0 et 1.
+```
+
+```
+Math.floor(Math.random()  * 5) + 1; //Retourne un entier entre 1 et 5.
+```
+
+
+
+
+
+
+
+
+
 
 
