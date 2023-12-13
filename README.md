@@ -91,7 +91,19 @@ if ((age >= 14) && (age < 19)) {
 }
 ```
 
+## Les nombres en Javascript :
+Javascript permet d'utiliser une grande variété de fonctions pour les traiter, les voici :
+```
+let pi = 3.141; // On déclare une variable pi
+```
 
+```
+pi.toFixed(0); //Retourne la valeur 3
+```
+
+```
+pi.toFixed(2); //Retourne 3.14
+```
 
 
 
