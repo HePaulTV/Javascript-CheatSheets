@@ -138,19 +138,95 @@ Number.MIN_VALUE; //Retourne le plus petit nombre JS possible.
 ```
 
 ```
-Number.NEGATIVE_INFINITY //-Infini
+Number.NEGATIVE_INFINITY //-Infini.
 ```
 
 ```
-Number.POSITIVE_INFINITY //Infini
+Number.POSITIVE_INFINITY //Infini.
+```
+
+## Les chaînes de charactères en javascript :
+Une liste d'outils pour traiter les chaînes de chractères :
+```
+let abc = "Je suis une chaine de charactère";
+```
+
+```
+let ligne = "Je retourne \n à la ligne"; // Le retour à la ligne avec \n.
+```
+
+```
+let long = abc.length; //Retourne la longueur de la chaîne de charatères.
+```
+
+```
+abc.indexOf("chaine"); //Trouve un substring.
+```
+
+```
+abc.lastIndexOf("chaine"); //Trouve la dernière occurence.
+```
+
+```
+abc.slice(3, 6); //Retourne "sui" de la chaine abc.
+```
+
+```
+abc.replace("abc","123"); //Trouve et rémplace dans la chaîne de charactère.
+```
+
+```
+abc.toUpperCase(); //Converti en majuscules.
+```
+
+```
+abc.toLowerCase(); //Converti en miniscules.
+```
+
+```
+abc.concat(" ", str2); //Retourne abc + " " + str2.
+```
+
+```
+abc.charAt(2) //Retourne la charactère à l'indice 2.
+```
+
+```
+abc.charCodeAt(2); //Retourne la valeur ASCII de charactère à l'indice.
+```
+
+```
+abc.split(","); //Retourne la chaîne séparé par des virgules.
 ```
 
 
+## Les boucles en javascript :
+Les boucles sont une autre partie importante de la programmation, les voici en javascript :
 
+### For :
+```
+for (let i = 0; i < 10; i++){
+  document.write(i + "<br />");
+}
+```
 
+### While :
+```
+let i = 1;
+while (i < 100) {
+  i *= 2;
+  document.write(i + ", ");
+}
+```
 
-
-
+### Do-While :
+```
+let i = 1;
+do {
+  i*= 2;
+  document.write(i + ", ");
+} while (i < 100)
+```
 
 
 
