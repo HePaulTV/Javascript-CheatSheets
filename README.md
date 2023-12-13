@@ -43,10 +43,43 @@ confirm("Accepter?");
 prompt("Votre âge?", "18");
 ```
 
+## Les types de données :
+Il existe plusieurs type de données, et on utlise **let** pour les déclarer car **var** est déprécié :
 
+### Les nombres :
+```
+let age = 18;
+```
 
+### Les chaîne de charactères :
+```
+let nom = "Paul Carouge";
+```
 
+### Les objets :
+```
+let personne = {prenom:"Paul", nom:"Carouge"};
+```
 
+### Les booléens :
+```
+let estVrai = true;
+```
+
+### Les tableaux :
+```
+let tableau = ["HTML", "CSS", "JAVASCRIPT"];
+```
+
+### Les non-définis :
+```
+let a;
+```
+
+### Les nulls :
+```
+let nulle = null;
+```
 
 
 
