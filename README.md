@@ -94,16 +94,58 @@ if ((age >= 14) && (age < 19)) {
 ## Les nombres en Javascript :
 Javascript permet d'utiliser une grande variété de fonctions pour les traiter, les voici :
 ```
-let pi = 3.141; // On déclare une variable pi
+let pi = 3.141; // On déclare une variable pi.
 ```
 
 ```
-pi.toFixed(0); //Retourne la valeur 3
+pi.toFixed(0); //Retourne la valeur 3.
 ```
 
 ```
-pi.toFixed(2); //Retourne 3.14
+pi.toFixed(2); //Retourne 3.14.
 ```
+
+```
+pi.toPrecision(2); //Retourne 3.1.
+```
+
+```
+pi.valueOf(); //Retourne number.
+```
+
+```
+Number(true); //Converti en nombre.
+```
+
+```
+Number(new Date()) //Retourne le nombre de millisecondes depuis 1970.
+```
+
+```
+parseInt("3 Mois"); //Retourne 3.
+```
+
+```
+parseFloat("3.5 Jours"); //Retourne 3.5.
+```
+
+```
+Number.MAX_VALUE; //Retourne le plus grand nombre JS possible.
+```
+
+```
+Number.MIN_VALUE; //Retourne le plus petit nombre JS possible.
+```
+
+```
+Number.NEGATIVE_INFINITY //-Infini
+```
+
+```
+Number.POSITIVE_INFINITY //Infini
+```
+
+
 
 
 
