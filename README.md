@@ -81,6 +81,22 @@ let a;
 let nulle = null;
 ```
 
+## Les conditions if/else :
+Les conditions sont une partie importante du développement et elle permettre de rendre le code adapté à la situation :
+```
+if ((age >= 14) && (age < 19)) {
+  status = "Eligible";
+} else {
+  status = "Non-Eligible";
+}
+```
+
+
+
+
+
+
+
 
 
 
