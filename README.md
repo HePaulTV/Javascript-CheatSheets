@@ -5,7 +5,7 @@
 Vous pouvez déclarer des script directement dans votre page html.
 ```
 <script type="text/javascript">
-...
+Le contenu de votre script...
 </script>
 ```
 
