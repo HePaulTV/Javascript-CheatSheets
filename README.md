@@ -23,3 +23,12 @@ function addNumbers(a, b) {
   return a + b;
 }
 ```
+
+## Les commentaires :
+Commenter votre code est très important pour la compréhension global et pour vous y retrouver :
+```
+/* Plusieurs lignes
+de commentaires */
+
+// Une seul ligne de commentaire
+```
