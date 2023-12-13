@@ -25,10 +25,30 @@ function addNumbers(a, b) {
 ```
 
 ## Les commentaires :
-Commenter votre code est très important pour la compréhension global et pour vous y retrouver :
+Commenter votre code est très **important** pour la compréhension global et pour vous y retrouver :
 ```
 /* Plusieurs lignes
 de commentaires */
 
 // Une seul ligne de commentaire
 ```
+
+## Affichage et débug :
+Il est important de faire du **debug** en affichant des valeurs pour trouver la source du probleme :
+```
+console.log(a);
+document.write(a);
+alert(a);
+confirm("Accepter?");
+prompt("Votre âge?", "18");
+```
+
+
+
+
+
+
+
+
+
+
